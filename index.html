@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream Website</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css"/>
+    <!-- Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <!-- Navbar Section -->
+        <section id="home">
+            <nav>
+                <div class="logo">
+                    <img src="Images/Logo.png" alt="Logo" />
+                </div>
+                <ul id="menu">
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="#Special">Special</a></li>
+                    <li><a href="#Review">Review</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Order">Order</a></li>
+                </ul>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="close-icon" id="closeIcon" onclick="toggleMenu()">
+                    <i class="fa-solid fa-times"></i>
+                </div>
+            </nav>
+            
+            <!-- Home Section -->
+        <div class="main">
+          <div class="main-text">
+            <h1><span>Welcome to</span><br><span>Sweet Delights!🍦</span></h1>
+          </div>
+          <div class="first-image">
+            <img src="Images/Home.png"/>
+          </div>
+        </div>
+        <p>✨ Enjoy every scoop of creamy, delicious ice cream made with love🍦<br>
+          From classic flavors to delightful new creations, every bite is a moment of joy Treat yourself to sweetness today!
+        </p>
+        <div class="btn">
+          <a href="#">Order Now</a>
+        </div>
+    </section> 
+
+    <!-- About Section -->
+    <div class="about" id="About">
+        <div class="main-about">
+          <div class="image">
+            <img src="Images/About.png"/>
+          </div>
+          <div class="text-about">
+            <h1><span>About Us</span></h1>
+            <p>At Sweet Delights, we believe every scoop should bring happiness! Made with love and the finest ingredients, our ice creams are crafted to satisfy your sweet cravings. Whether you love classic flavors or adventurous new treats, we have something special for everyone. Come and indulge in the magic of sweetness!✨ </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu -->
+      <div class="menu" id="Menu">
+        <h1>Our <span>Menu</span></h1>
+        <div class="menu-box">
+          <div class="menu-cart">
+            <div class="menu-image">
+              <img src="Images/Menu/Img1.jpeg" alt="" />
+            </div>
+            <div class="menu-info">
+              <h2>IceCream</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+  
+          <div class="menu-cart">
+            <div class="menu-image">
+              <img src="Images/Menu/Img2.jpeg"/>
+            </div>
+            <div class="menu-info">
+              <h2>Mango IceCream</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+  
+          <div class="menu-cart">
+            <div class="menu-image">
+              <img src="Images/Menu/Img3.jpeg"/>
+            </div>
+            <div class="menu-info">
+              <h2>Mango IceCream</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                Lorem ipsum dolor sit amet, consectetur adipisicing eli</p>
+            </div>
+          </div>
+
+          <div class="menu-cart">
+            <div class="menu-image">
+              <img src="Images/Menu/Img4.jpeg"/>
+            </div>
+            <div class="menu-info">
+              <h2>IceCream</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+
+          <div class="menu-cart">
+            <div class="menu-image">
+              <img src="Images/Menu/Img5.jpeg"/>
+            </div>
+            <div class="menu-info">
+              <h2>IceCream</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+
+          <div class="menu-cart">
+            <div class="menu-image">
+              <img src="Images/Menu/Img6.jpeg"/>
+            </div>
+            <div class="menu-info">
+              <h2>IceCream</h2>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            </div>
+          </div>
+        </div>
+        </div>
+
+         <!--Special Page-->
+         <div class="special" id="Special">
+          <h1>Our <span>Special</span></h1>
+          <div class="image-box">
+            <div class="special-image">
+              <img src="Images/Specialities/Img1.jpeg"/>
+              <div class="special-btn">Order Now</div>
+            </div>
+  
+            <div class="special-image">
+              <img src="Images/Specialities/Img2.jpeg"/>
+              <div class="special-btn">Order Now</div>
+            </div>
+  
+            <div class="special-image">
+              <img src="Images/Specialities/Img3.jpeg"/>
+              <div class="special-btn">Order Now</div>
+            </div>
+  
+            <div class="special-image">
+              <img src="Images/Specialities/Img4.jpeg"/>
+              <div class="special-btn">Order Now</div>
+            </div>
+  
+            <div class="special-image">
+              <img src="Images/Specialities/Img5.jpeg"/>
+              <div class="special-btn">Order Now</div>
+            </div>
+  
+            <div class="special-image">
+              <img src="Images/Specialities/Img6.jpeg"/>
+              <div class="special-btn">Order Now</div>
+            </div>
+          </div>
+        </div>
+
+         <!--Review-->
+      <div class="review" id="Review">
+        <h1>Customer <span>Review</span></h1>
+        <div class="review-box">
+          <div class="review-cart">
+            <div class="review-profile">
+              <img src="Images/Review/Review1.jpeg"/>
+            </div>
+            <div class="review-text">
+              <h2 class="name">John</h2>
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <div class="review-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkdin"></i>
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque, deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+          </div>
+
+          <div class="review-cart">
+            <div class="review-profile">
+              <img src="Images/Review/Review2.jpeg"/>
+            </div>
+            <div class="review-text">
+              <h2 class="name">Alex</h2>
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <div class="review-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkdin"></i>
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque, deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+
+          <div class="review-cart">
+            <div class="review-profile">
+              <img src="Images/Review/Review3.jpeg"/>
+            </div>
+            <div class="review-text">
+              <h2 class="name">Ryan</h2>
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <div class="review-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkdin"></i>
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque, deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+
+          <div class="review-cart">
+            <div class="review-profile">
+              <img src="Images/Review/Review4.jpeg"/>
+            </div>
+            <div class="review-text">
+              <h2 class="name">Ethan</h2>
+              <div class="review-icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <div class="review-social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkdin"></i>
+              </div>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloremque, deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>&copy; 2025 Ice Cream Shop. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS Code -->
+      <script>
+        function toggleMenu() {
+            const menu = document.getElementById("menu");
+            const closeIcon = document.getElementById("closeIcon");
+            menu.classList.toggle("show");
+            closeIcon.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
